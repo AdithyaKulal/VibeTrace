@@ -8,7 +8,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Globe, Github } from "lucide-react";
+import { Globe,LinkIcon } from "lucide-react";
 import { signIn } from "@/auth";
 
 async function handleGoogleSignIn() {
