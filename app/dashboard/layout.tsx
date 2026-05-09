@@ -26,7 +26,7 @@ export default async function DashboardLayout({
         id: item.id,
         name: item.title,
         /*cancel afterwords */
-        started: false,
+        starred: item.Starmark?.[0]?.isMarked || false,
         icon: technologyIconmap[item.template] || "Code2",
     }))
 
