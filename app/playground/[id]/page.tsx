@@ -20,6 +20,8 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { ResizablePanelGroup, ResizablePanel } from "@/components/ui/resizable";
+import PlaygroundEditor from "@/modules/playground/components/playground-editor";
 
 const MainPlaygroundPage = () => {
   const { id } = useParams<{ id: string }>();
@@ -71,7 +73,7 @@ const MainPlaygroundPage = () => {
           onDeleteFolder={() => {}}
           onRenameFolder={() => {}}
         />
-        <SidebarInset>
+        <SidebarInset className="min-h-0">
           <header className="flex h-16 shrink-0 items-center gap-2 border-b px-4">
             <SidebarTrigger className="-ml-1" />
             <Separator orientation="vertical" className="mr-2 h-4" />
@@ -88,7 +90,7 @@ const MainPlaygroundPage = () => {
 
               <div className="flex items-center gap-1">
                 <Tooltip>
-                  <TooltipTrigger>
+                  <TooltipTrigger asChild>
                     <Button
                       size="sm"
                       variant="outline"
@@ -193,7 +195,20 @@ const MainPlaygroundPage = () => {
                     </div>
                   </Tabs>
                 </div>
-                <div className="flex-1">{activeFile?.content}</div>
+                <div className="flex-1 min-h-0">
+                  <ResizablePanelGroup
+                    dir="horizontal"
+                    className="h-full min-h-0"
+                  >
+                    <ResizablePanel defaultSize={isPreviewVisible ? 50 : 100} className="h-full min-h-0">
+                      <PlaygroundEditor
+                        activeFile={activeFile}
+                        content={activeFile?.content || ""}
+                        onContentChange={() => {}}
+                      />
+                    </ResizablePanel>
+                  </ResizablePanelGroup>
+                </div>
               </div>
             ) : (
               <div className="flex flex-col h-full items-center justify-center text-muted-foreground gap-4">
