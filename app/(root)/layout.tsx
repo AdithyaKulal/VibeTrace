@@ -6,8 +6,8 @@ import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
     title: {
-        template: "vibetrace",
-        default: "Code editors for VibeCoders -vibecode ",
+        template: "VibeTrace",
+        default: "Code editors for VibeCoders-VibeTrace ",
     },
 }
 
