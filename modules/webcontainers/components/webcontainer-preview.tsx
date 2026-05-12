@@ -6,6 +6,11 @@ import { transformToWebContainerFormat } from "../hooks/transformer";
 import { CheckCircle, Loader2, XCircle } from "lucide-react";
 import { Progress } from "@/components/ui/progress";
 import { WebContainer } from "@webcontainer/api";
+import dynamic from "next/dynamic";
+
+const TerminalComponent = dynamic(() => import("./terminal"), {
+  ssr: false,
+});
 
 interface WebContainerPreviewProps {
   templateData: TemplateFolder;
@@ -41,6 +46,22 @@ const WebContainerPreview = ({
   const [isSetupInProgress, setIsSetupInProgress] = useState(false);
 
   const terminalRef = useRef<any>(null);
+
+  useEffect(() => {
+    if (forceResetup) {
+      setIsSetupComplete(false);
+      setIsSetupInProgress(false);
+      setPreviewUrl("");
+      setCurrentStep(0);
+      setLoadingState({
+        transforming: false,
+        mounting: false,
+        installing: false,
+        starting: false,
+        ready: false,
+      });
+    }
+  }, [forceResetup]);
 
   useEffect(() => {
     async function setupContainer() {
@@ -172,6 +193,12 @@ const WebContainerPreview = ({
           terminalRef.current.writeToTerminal(
             "🚀 Starting development server...\r\n",
           );
+        }
+
+        try {
+          await instance.spawn("pkill", ["node"]);
+        } catch (e) {
+          console.log("No existing node process");
         }
 
         const startProcess = await instance.spawn("npm", ["run", "start"]);
@@ -312,20 +339,14 @@ const WebContainerPreview = ({
                 {getStepText(4, "Starting development server")}
               </div>
             </div>
-
-            {/*Terminal */}
-            {/*
-                    <div className='flex p-4'>
-                        <TerminalComponent 
-                            ref={terminalRef}
-                            webContainerInstance={instance}
-                            theme="dark"
-                            className="h-full"
-                        />
-
-                    </div>
-                    
-                    */}
+          </div>
+          <div className="flex p-4">
+            <TerminalComponent
+              ref={terminalRef}
+              webContainerInstance={instance}
+              theme="dark"
+              className="h-full"
+            />
           </div>
         </div>
       ) : (
@@ -335,6 +356,14 @@ const WebContainerPreview = ({
               src={previewUrl}
               className="w-full h-full border-none"
               title="WebContainer Preview"
+            />
+          </div>
+          <div className="h-64 border-t">
+            <TerminalComponent
+              ref={terminalRef}
+              webContainerInstance={instance}
+              theme="dark"
+              className="h-full"
             />
           </div>
         </div>
