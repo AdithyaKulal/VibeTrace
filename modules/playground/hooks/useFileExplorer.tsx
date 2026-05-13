@@ -30,6 +30,8 @@ interface FileExplorerState {
   openFile: (file: TemplateFile) => void;
   closeFile: (fileId: string) => void;
   closeAllFiles: () => void;
+   
+
 
   // File explorer methods
   handleAddFile: (

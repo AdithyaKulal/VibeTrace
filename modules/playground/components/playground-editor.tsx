@@ -76,7 +76,6 @@ const PlaygroundEditor = ({
   return (
     <div className="flex flex-col h-screen overflow-hidden">
       {/* Top bar */}
-      <div className="h-14 border-b border-zinc-800">Header</div>
 
       {/* Editor area */}
       <div className="flex-1 min-h-0">

@@ -1,0 +1,1064 @@
+﻿---------------------------
+Failed to write app endpoint /playground/[id]/page
+
+Caused by:
+- Next.js package not found
+
+Debug info:
+- Execution of Project::hmr_version_state failed
+- Execution of hmr_version_operation failed
+- Execution of VersionedContentMap::get failed
+- Execution of VersionedContentMap::get_asset failed
+- Execution of VersionedContentMap::compute_entry failed
+- Execution of *emit_assets failed
+- Execution of all_assets_from_entries_operation failed
+- Execution of *all_assets_from_entries failed
+- Execution of endpoint_output_assets_operation failed
+- Execution of <AppEndpoint as Endpoint>::output failed
+- Failed to write app endpoint /playground/[id]/page
+- Execution of *all_asset_paths failed
+- Execution of *AppEndpointOutput::output_assets failed
+- Execution of AppEndpoint::output failed
+- Execution of AppEndpoint::app_page_entry failed
+- Execution of *get_app_page_entry failed
+- Execution of AppProject::rsc_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of *AppProject::get_rsc_transitions failed
+- Execution of AppProject::ecmascript_client_reference_transition failed
+- Execution of *NextEcmascriptClientReferenceTransition::new failed
+- Execution of AppProject::ssr_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::ssr_module_context failed
+- Execution of AppProject::shared_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::shared_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of get_server_resolve_options_context failed
+- Execution of get_next_server_import_map failed
+- Next.js package not found
+---------------------------
+Failed to write app endpoint /playground/[id]/page
+
+Caused by:
+- Next.js package not found
+
+Debug info:
+- Execution of Project::hmr_version_state failed
+- Execution of hmr_version_operation failed
+- Execution of VersionedContentMap::get failed
+- Execution of VersionedContentMap::get_asset failed
+- Execution of VersionedContentMap::compute_entry failed
+- Execution of *emit_assets failed
+- Execution of all_assets_from_entries_operation failed
+- Execution of *all_assets_from_entries failed
+- Execution of endpoint_output_assets_operation failed
+- Execution of <AppEndpoint as Endpoint>::output failed
+- Failed to write app endpoint /playground/[id]/page
+- Execution of *all_asset_paths failed
+- Execution of *AppEndpointOutput::output_assets failed
+- Execution of AppEndpoint::output failed
+- Execution of AppEndpoint::app_page_entry failed
+- Execution of *get_app_page_entry failed
+- Execution of AppProject::rsc_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of *AppProject::get_rsc_transitions failed
+- Execution of AppProject::ecmascript_client_reference_transition failed
+- Execution of *NextEcmascriptClientReferenceTransition::new failed
+- Execution of AppProject::ssr_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::ssr_module_context failed
+- Execution of AppProject::shared_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::shared_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of get_server_resolve_options_context failed
+- Execution of get_next_server_import_map failed
+- Next.js package not found
+---------------------------
+Failed to write app endpoint /playground/[id]/page
+
+Caused by:
+- Next.js package not found
+
+Debug info:
+- Execution of Project::hmr_version_state failed
+- Execution of hmr_version_operation failed
+- Execution of VersionedContentMap::get failed
+- Execution of VersionedContentMap::get_asset failed
+- Execution of VersionedContentMap::compute_entry failed
+- Execution of *emit_assets failed
+- Execution of all_assets_from_entries_operation failed
+- Execution of *all_assets_from_entries failed
+- Execution of endpoint_output_assets_operation failed
+- Execution of <AppEndpoint as Endpoint>::output failed
+- Failed to write app endpoint /playground/[id]/page
+- Execution of *all_asset_paths failed
+- Execution of *AppEndpointOutput::output_assets failed
+- Execution of AppEndpoint::output failed
+- Execution of AppEndpoint::app_page_entry failed
+- Execution of *get_app_page_entry failed
+- Execution of AppProject::rsc_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of *AppProject::get_rsc_transitions failed
+- Execution of AppProject::ecmascript_client_reference_transition failed
+- Execution of *NextEcmascriptClientReferenceTransition::new failed
+- Execution of AppProject::ssr_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::ssr_module_context failed
+- Execution of AppProject::shared_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::shared_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of get_server_resolve_options_context failed
+- Execution of get_next_server_import_map failed
+- Next.js package not found
+---------------------------
+Failed to write app endpoint /playground/[id]/page
+
+Caused by:
+- Next.js package not found
+
+Debug info:
+- Execution of Project::hmr_version_state failed
+- Execution of hmr_version_operation failed
+- Execution of VersionedContentMap::get failed
+- Execution of VersionedContentMap::get_asset failed
+- Execution of VersionedContentMap::compute_entry failed
+- Execution of *emit_assets failed
+- Execution of all_assets_from_entries_operation failed
+- Execution of *all_assets_from_entries failed
+- Execution of endpoint_output_assets_operation failed
+- Execution of <AppEndpoint as Endpoint>::output failed
+- Failed to write app endpoint /playground/[id]/page
+- Execution of *all_asset_paths failed
+- Execution of *AppEndpointOutput::output_assets failed
+- Execution of AppEndpoint::output failed
+- Execution of AppEndpoint::app_page_entry failed
+- Execution of *get_app_page_entry failed
+- Execution of AppProject::rsc_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of *AppProject::get_rsc_transitions failed
+- Execution of AppProject::ecmascript_client_reference_transition failed
+- Execution of *NextEcmascriptClientReferenceTransition::new failed
+- Execution of AppProject::ssr_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::ssr_module_context failed
+- Execution of AppProject::shared_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::shared_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of get_server_resolve_options_context failed
+- Execution of get_next_server_import_map failed
+- Next.js package not found
+---------------------------
+Failed to write app endpoint /playground/[id]/page
+
+Caused by:
+- Next.js package not found
+
+Debug info:
+- Execution of Project::hmr_version_state failed
+- Execution of hmr_version_operation failed
+- Execution of VersionedContentMap::get failed
+- Execution of VersionedContentMap::get_asset failed
+- Execution of VersionedContentMap::compute_entry failed
+- Execution of *emit_assets failed
+- Execution of all_assets_from_entries_operation failed
+- Execution of *all_assets_from_entries failed
+- Execution of endpoint_output_assets_operation failed
+- Execution of <AppEndpoint as Endpoint>::output failed
+- Failed to write app endpoint /playground/[id]/page
+- Execution of *all_asset_paths failed
+- Execution of *AppEndpointOutput::output_assets failed
+- Execution of AppEndpoint::output failed
+- Execution of AppEndpoint::app_page_entry failed
+- Execution of *get_app_page_entry failed
+- Execution of AppProject::rsc_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of *AppProject::get_rsc_transitions failed
+- Execution of AppProject::ecmascript_client_reference_transition failed
+- Execution of *NextEcmascriptClientReferenceTransition::new failed
+- Execution of AppProject::ssr_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::ssr_module_context failed
+- Execution of AppProject::shared_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::shared_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of get_server_resolve_options_context failed
+- Execution of get_next_server_import_map failed
+- Next.js package not found
+---------------------------
+Failed to write app endpoint /playground/[id]/page
+
+Caused by:
+- Next.js package not found
+
+Debug info:
+- Execution of Project::hmr_version_state failed
+- Execution of hmr_version_operation failed
+- Execution of VersionedContentMap::get failed
+- Execution of VersionedContentMap::get_asset failed
+- Execution of VersionedContentMap::compute_entry failed
+- Execution of *emit_assets failed
+- Execution of all_assets_from_entries_operation failed
+- Execution of *all_assets_from_entries failed
+- Execution of endpoint_output_assets_operation failed
+- Execution of <AppEndpoint as Endpoint>::output failed
+- Failed to write app endpoint /playground/[id]/page
+- Execution of *all_asset_paths failed
+- Execution of *AppEndpointOutput::output_assets failed
+- Execution of AppEndpoint::output failed
+- Execution of AppEndpoint::app_page_entry failed
+- Execution of *get_app_page_entry failed
+- Execution of AppProject::rsc_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of *AppProject::get_rsc_transitions failed
+- Execution of AppProject::ecmascript_client_reference_transition failed
+- Execution of *NextEcmascriptClientReferenceTransition::new failed
+- Execution of AppProject::ssr_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::ssr_module_context failed
+- Execution of AppProject::shared_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::shared_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of get_server_resolve_options_context failed
+- Execution of get_next_server_import_map failed
+- Next.js package not found
+---------------------------
+Failed to write app endpoint /playground/[id]/page
+
+Caused by:
+- Next.js package not found
+
+Debug info:
+- Execution of Project::hmr_version_state failed
+- Execution of hmr_version_operation failed
+- Execution of VersionedContentMap::get failed
+- Execution of VersionedContentMap::get_asset failed
+- Execution of VersionedContentMap::compute_entry failed
+- Execution of *emit_assets failed
+- Execution of all_assets_from_entries_operation failed
+- Execution of *all_assets_from_entries failed
+- Execution of endpoint_output_assets_operation failed
+- Execution of <AppEndpoint as Endpoint>::output failed
+- Failed to write app endpoint /playground/[id]/page
+- Execution of *all_asset_paths failed
+- Execution of *AppEndpointOutput::output_assets failed
+- Execution of AppEndpoint::output failed
+- Execution of AppEndpoint::app_page_entry failed
+- Execution of *get_app_page_entry failed
+- Execution of AppProject::rsc_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of *AppProject::get_rsc_transitions failed
+- Execution of AppProject::ecmascript_client_reference_transition failed
+- Execution of *NextEcmascriptClientReferenceTransition::new failed
+- Execution of AppProject::ssr_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::ssr_module_context failed
+- Execution of AppProject::shared_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::shared_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of get_server_resolve_options_context failed
+- Execution of get_next_server_import_map failed
+- Next.js package not found
+---------------------------
+Failed to write app endpoint /playground/[id]/page
+
+Caused by:
+- Next.js package not found
+
+Debug info:
+- Execution of Project::hmr_version_state failed
+- Execution of hmr_version_operation failed
+- Execution of VersionedContentMap::get failed
+- Execution of VersionedContentMap::get_asset failed
+- Execution of VersionedContentMap::compute_entry failed
+- Execution of *emit_assets failed
+- Execution of all_assets_from_entries_operation failed
+- Execution of *all_assets_from_entries failed
+- Execution of endpoint_output_assets_operation failed
+- Execution of <AppEndpoint as Endpoint>::output failed
+- Failed to write app endpoint /playground/[id]/page
+- Execution of *all_asset_paths failed
+- Execution of *AppEndpointOutput::output_assets failed
+- Execution of AppEndpoint::output failed
+- Execution of AppEndpoint::app_page_entry failed
+- Execution of *get_app_page_entry failed
+- Execution of AppProject::rsc_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of *AppProject::get_rsc_transitions failed
+- Execution of AppProject::ecmascript_client_reference_transition failed
+- Execution of *NextEcmascriptClientReferenceTransition::new failed
+- Execution of AppProject::ssr_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::ssr_module_context failed
+- Execution of AppProject::shared_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::shared_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of get_server_resolve_options_context failed
+- Execution of get_next_server_import_map failed
+- Next.js package not found
+---------------------------
+Failed to write app endpoint /playground/[id]/page
+
+Caused by:
+- Next.js package not found
+
+Debug info:
+- Execution of Project::hmr_version_state failed
+- Execution of hmr_version_operation failed
+- Execution of VersionedContentMap::get failed
+- Execution of VersionedContentMap::get_asset failed
+- Execution of VersionedContentMap::compute_entry failed
+- Execution of *emit_assets failed
+- Execution of all_assets_from_entries_operation failed
+- Execution of *all_assets_from_entries failed
+- Execution of endpoint_output_assets_operation failed
+- Execution of <AppEndpoint as Endpoint>::output failed
+- Failed to write app endpoint /playground/[id]/page
+- Execution of *all_asset_paths failed
+- Execution of *AppEndpointOutput::output_assets failed
+- Execution of AppEndpoint::output failed
+- Execution of AppEndpoint::app_page_entry failed
+- Execution of *get_app_page_entry failed
+- Execution of AppProject::rsc_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of *AppProject::get_rsc_transitions failed
+- Execution of AppProject::ecmascript_client_reference_transition failed
+- Execution of *NextEcmascriptClientReferenceTransition::new failed
+- Execution of AppProject::ssr_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::ssr_module_context failed
+- Execution of AppProject::shared_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::shared_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of get_server_resolve_options_context failed
+- Execution of get_next_server_import_map failed
+- Next.js package not found
+---------------------------
+Failed to write app endpoint /playground/[id]/page
+
+Caused by:
+- Next.js package not found
+
+Debug info:
+- Execution of Project::hmr_version_state failed
+- Execution of hmr_version_operation failed
+- Execution of VersionedContentMap::get failed
+- Execution of VersionedContentMap::get_asset failed
+- Execution of VersionedContentMap::compute_entry failed
+- Execution of *emit_assets failed
+- Execution of all_assets_from_entries_operation failed
+- Execution of *all_assets_from_entries failed
+- Execution of endpoint_output_assets_operation failed
+- Execution of <AppEndpoint as Endpoint>::output failed
+- Failed to write app endpoint /playground/[id]/page
+- Execution of *all_asset_paths failed
+- Execution of *AppEndpointOutput::output_assets failed
+- Execution of AppEndpoint::output failed
+- Execution of AppEndpoint::app_page_entry failed
+- Execution of *get_app_page_entry failed
+- Execution of AppProject::rsc_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of *AppProject::get_rsc_transitions failed
+- Execution of AppProject::ecmascript_client_reference_transition failed
+- Execution of *NextEcmascriptClientReferenceTransition::new failed
+- Execution of AppProject::ssr_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::ssr_module_context failed
+- Execution of AppProject::shared_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::shared_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of get_server_resolve_options_context failed
+- Execution of get_next_server_import_map failed
+- Next.js package not found
+---------------------------
+Failed to write app endpoint /playground/[id]/page
+
+Caused by:
+- Next.js package not found
+
+Debug info:
+- Execution of Project::hmr_version_state failed
+- Execution of hmr_version_operation failed
+- Execution of VersionedContentMap::get failed
+- Execution of VersionedContentMap::get_asset failed
+- Execution of VersionedContentMap::compute_entry failed
+- Execution of *emit_assets failed
+- Execution of all_assets_from_entries_operation failed
+- Execution of *all_assets_from_entries failed
+- Execution of endpoint_output_assets_operation failed
+- Execution of <AppEndpoint as Endpoint>::output failed
+- Failed to write app endpoint /playground/[id]/page
+- Execution of *all_asset_paths failed
+- Execution of *AppEndpointOutput::output_assets failed
+- Execution of AppEndpoint::output failed
+- Execution of AppEndpoint::app_page_entry failed
+- Execution of *get_app_page_entry failed
+- Execution of AppProject::rsc_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of *AppProject::get_rsc_transitions failed
+- Execution of AppProject::ecmascript_client_reference_transition failed
+- Execution of *NextEcmascriptClientReferenceTransition::new failed
+- Execution of AppProject::ssr_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::ssr_module_context failed
+- Execution of AppProject::shared_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::shared_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of get_server_resolve_options_context failed
+- Execution of get_next_server_import_map failed
+- Next.js package not found
+---------------------------
+Failed to write app endpoint /playground/[id]/page
+
+Caused by:
+- Next.js package not found
+
+Debug info:
+- Execution of Project::hmr_version_state failed
+- Execution of hmr_version_operation failed
+- Execution of VersionedContentMap::get failed
+- Execution of VersionedContentMap::get_asset failed
+- Execution of VersionedContentMap::compute_entry failed
+- Execution of *emit_assets failed
+- Execution of all_assets_from_entries_operation failed
+- Execution of *all_assets_from_entries failed
+- Execution of endpoint_output_assets_operation failed
+- Execution of <AppEndpoint as Endpoint>::output failed
+- Failed to write app endpoint /playground/[id]/page
+- Execution of *all_asset_paths failed
+- Execution of *AppEndpointOutput::output_assets failed
+- Execution of AppEndpoint::output failed
+- Execution of AppEndpoint::app_page_entry failed
+- Execution of *get_app_page_entry failed
+- Execution of AppProject::rsc_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of *AppProject::get_rsc_transitions failed
+- Execution of AppProject::ecmascript_client_reference_transition failed
+- Execution of *NextEcmascriptClientReferenceTransition::new failed
+- Execution of AppProject::ssr_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::ssr_module_context failed
+- Execution of AppProject::shared_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::shared_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of get_server_resolve_options_context failed
+- Execution of get_next_server_import_map failed
+- Next.js package not found
+---------------------------
+Failed to write app endpoint /playground/[id]/page
+
+Caused by:
+- Next.js package not found
+
+Debug info:
+- Execution of Project::hmr_version_state failed
+- Execution of hmr_version_operation failed
+- Execution of VersionedContentMap::get failed
+- Execution of VersionedContentMap::get_asset failed
+- Execution of VersionedContentMap::compute_entry failed
+- Execution of *emit_assets failed
+- Execution of all_assets_from_entries_operation failed
+- Execution of *all_assets_from_entries failed
+- Execution of endpoint_output_assets_operation failed
+- Execution of <AppEndpoint as Endpoint>::output failed
+- Failed to write app endpoint /playground/[id]/page
+- Execution of *all_asset_paths failed
+- Execution of *AppEndpointOutput::output_assets failed
+- Execution of AppEndpoint::output failed
+- Execution of AppEndpoint::app_page_entry failed
+- Execution of *get_app_page_entry failed
+- Execution of AppProject::rsc_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of *AppProject::get_rsc_transitions failed
+- Execution of AppProject::ecmascript_client_reference_transition failed
+- Execution of *NextEcmascriptClientReferenceTransition::new failed
+- Execution of AppProject::ssr_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::ssr_module_context failed
+- Execution of AppProject::shared_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::shared_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of get_server_resolve_options_context failed
+- Execution of get_next_server_import_map failed
+- Next.js package not found
+---------------------------
+Failed to write app endpoint /playground/[id]/page
+
+Caused by:
+- Next.js package not found
+
+Debug info:
+- Execution of Project::hmr_version_state failed
+- Execution of hmr_version_operation failed
+- Execution of VersionedContentMap::get failed
+- Execution of VersionedContentMap::get_asset failed
+- Execution of VersionedContentMap::compute_entry failed
+- Execution of *emit_assets failed
+- Execution of all_assets_from_entries_operation failed
+- Execution of *all_assets_from_entries failed
+- Execution of endpoint_output_assets_operation failed
+- Execution of <AppEndpoint as Endpoint>::output failed
+- Failed to write app endpoint /playground/[id]/page
+- Execution of *all_asset_paths failed
+- Execution of *AppEndpointOutput::output_assets failed
+- Execution of AppEndpoint::output failed
+- Execution of AppEndpoint::app_page_entry failed
+- Execution of *get_app_page_entry failed
+- Execution of AppProject::rsc_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of *AppProject::get_rsc_transitions failed
+- Execution of AppProject::ecmascript_client_reference_transition failed
+- Execution of *NextEcmascriptClientReferenceTransition::new failed
+- Execution of AppProject::ssr_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::ssr_module_context failed
+- Execution of AppProject::shared_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::shared_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of get_server_resolve_options_context failed
+- Execution of get_next_server_import_map failed
+- Next.js package not found
+---------------------------
+Failed to write app endpoint /playground/[id]/page
+
+Caused by:
+- Next.js package not found
+
+Debug info:
+- Execution of Project::hmr_version_state failed
+- Execution of hmr_version_operation failed
+- Execution of VersionedContentMap::get failed
+- Execution of VersionedContentMap::get_asset failed
+- Execution of VersionedContentMap::compute_entry failed
+- Execution of *emit_assets failed
+- Execution of all_assets_from_entries_operation failed
+- Execution of *all_assets_from_entries failed
+- Execution of endpoint_output_assets_operation failed
+- Execution of <AppEndpoint as Endpoint>::output failed
+- Failed to write app endpoint /playground/[id]/page
+- Execution of *all_asset_paths failed
+- Execution of *AppEndpointOutput::output_assets failed
+- Execution of AppEndpoint::output failed
+- Execution of AppEndpoint::app_page_entry failed
+- Execution of *get_app_page_entry failed
+- Execution of AppProject::rsc_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of *AppProject::get_rsc_transitions failed
+- Execution of AppProject::ecmascript_client_reference_transition failed
+- Execution of *NextEcmascriptClientReferenceTransition::new failed
+- Execution of AppProject::ssr_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::ssr_module_context failed
+- Execution of AppProject::shared_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::shared_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of get_server_resolve_options_context failed
+- Execution of get_next_server_import_map failed
+- Next.js package not found
+---------------------------
+Failed to write app endpoint /playground/[id]/page
+
+Caused by:
+- Next.js package not found
+
+Debug info:
+- Execution of Project::hmr_version_state failed
+- Execution of hmr_version_operation failed
+- Execution of VersionedContentMap::get failed
+- Execution of VersionedContentMap::get_asset failed
+- Execution of VersionedContentMap::compute_entry failed
+- Execution of *emit_assets failed
+- Execution of all_assets_from_entries_operation failed
+- Execution of *all_assets_from_entries failed
+- Execution of endpoint_output_assets_operation failed
+- Execution of <AppEndpoint as Endpoint>::output failed
+- Failed to write app endpoint /playground/[id]/page
+- Execution of *all_asset_paths failed
+- Execution of *AppEndpointOutput::output_assets failed
+- Execution of AppEndpoint::output failed
+- Execution of AppEndpoint::app_page_entry failed
+- Execution of *get_app_page_entry failed
+- Execution of AppProject::rsc_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of *AppProject::get_rsc_transitions failed
+- Execution of AppProject::ecmascript_client_reference_transition failed
+- Execution of *NextEcmascriptClientReferenceTransition::new failed
+- Execution of AppProject::ssr_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::ssr_module_context failed
+- Execution of AppProject::shared_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::shared_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of get_server_resolve_options_context failed
+- Execution of get_next_server_import_map failed
+- Next.js package not found
+---------------------------
+Failed to write app endpoint /playground/[id]/page
+
+Caused by:
+- Next.js package not found
+
+Debug info:
+- Execution of Project::hmr_version_state failed
+- Execution of hmr_version_operation failed
+- Execution of VersionedContentMap::get failed
+- Execution of VersionedContentMap::get_asset failed
+- Execution of VersionedContentMap::compute_entry failed
+- Execution of *emit_assets failed
+- Execution of all_assets_from_entries_operation failed
+- Execution of *all_assets_from_entries failed
+- Execution of endpoint_output_assets_operation failed
+- Execution of <AppEndpoint as Endpoint>::output failed
+- Failed to write app endpoint /playground/[id]/page
+- Execution of *all_asset_paths failed
+- Execution of *AppEndpointOutput::output_assets failed
+- Execution of AppEndpoint::output failed
+- Execution of AppEndpoint::app_page_entry failed
+- Execution of *get_app_page_entry failed
+- Execution of AppProject::rsc_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of *AppProject::get_rsc_transitions failed
+- Execution of AppProject::ecmascript_client_reference_transition failed
+- Execution of *NextEcmascriptClientReferenceTransition::new failed
+- Execution of AppProject::ssr_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::ssr_module_context failed
+- Execution of AppProject::shared_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::shared_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of get_server_resolve_options_context failed
+- Execution of get_next_server_import_map failed
+- Next.js package not found
+---------------------------
+Failed to write app endpoint /playground/[id]/page
+
+Caused by:
+- Next.js package not found
+
+Debug info:
+- Execution of Project::hmr_version_state failed
+- Execution of hmr_version_operation failed
+- Execution of VersionedContentMap::get failed
+- Execution of VersionedContentMap::get_asset failed
+- Execution of VersionedContentMap::compute_entry failed
+- Execution of *emit_assets failed
+- Execution of all_assets_from_entries_operation failed
+- Execution of *all_assets_from_entries failed
+- Execution of endpoint_output_assets_operation failed
+- Execution of <AppEndpoint as Endpoint>::output failed
+- Failed to write app endpoint /playground/[id]/page
+- Execution of *all_asset_paths failed
+- Execution of *AppEndpointOutput::output_assets failed
+- Execution of AppEndpoint::output failed
+- Execution of AppEndpoint::app_page_entry failed
+- Execution of *get_app_page_entry failed
+- Execution of AppProject::rsc_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of *AppProject::get_rsc_transitions failed
+- Execution of AppProject::ecmascript_client_reference_transition failed
+- Execution of *NextEcmascriptClientReferenceTransition::new failed
+- Execution of AppProject::ssr_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::ssr_module_context failed
+- Execution of AppProject::shared_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::shared_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of get_server_resolve_options_context failed
+- Execution of get_next_server_import_map failed
+- Next.js package not found
+---------------------------
+Failed to write app endpoint /playground/[id]/page
+
+Caused by:
+- Next.js package not found
+
+Debug info:
+- Execution of Project::hmr_version_state failed
+- Execution of hmr_version_operation failed
+- Execution of VersionedContentMap::get failed
+- Execution of VersionedContentMap::get_asset failed
+- Execution of VersionedContentMap::compute_entry failed
+- Execution of *emit_assets failed
+- Execution of all_assets_from_entries_operation failed
+- Execution of *all_assets_from_entries failed
+- Execution of endpoint_output_assets_operation failed
+- Execution of <AppEndpoint as Endpoint>::output failed
+- Failed to write app endpoint /playground/[id]/page
+- Execution of *all_asset_paths failed
+- Execution of *AppEndpointOutput::output_assets failed
+- Execution of AppEndpoint::output failed
+- Execution of AppEndpoint::app_page_entry failed
+- Execution of *get_app_page_entry failed
+- Execution of AppProject::rsc_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of *AppProject::get_rsc_transitions failed
+- Execution of AppProject::ecmascript_client_reference_transition failed
+- Execution of *NextEcmascriptClientReferenceTransition::new failed
+- Execution of AppProject::ssr_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::ssr_module_context failed
+- Execution of AppProject::shared_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::shared_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of get_server_resolve_options_context failed
+- Execution of get_next_server_import_map failed
+- Next.js package not found
+---------------------------
+Failed to write app endpoint /playground/[id]/page
+
+Caused by:
+- Next.js package not found
+
+Debug info:
+- Execution of Project::hmr_version_state failed
+- Execution of hmr_version_operation failed
+- Execution of VersionedContentMap::get failed
+- Execution of VersionedContentMap::get_asset failed
+- Execution of VersionedContentMap::compute_entry failed
+- Execution of *emit_assets failed
+- Execution of all_assets_from_entries_operation failed
+- Execution of *all_assets_from_entries failed
+- Execution of endpoint_output_assets_operation failed
+- Execution of <AppEndpoint as Endpoint>::output failed
+- Failed to write app endpoint /playground/[id]/page
+- Execution of *all_asset_paths failed
+- Execution of *AppEndpointOutput::output_assets failed
+- Execution of AppEndpoint::output failed
+- Execution of AppEndpoint::app_page_entry failed
+- Execution of *get_app_page_entry failed
+- Execution of AppProject::rsc_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of *AppProject::get_rsc_transitions failed
+- Execution of AppProject::ecmascript_client_reference_transition failed
+- Execution of *NextEcmascriptClientReferenceTransition::new failed
+- Execution of AppProject::ssr_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::ssr_module_context failed
+- Execution of AppProject::shared_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::shared_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of get_server_resolve_options_context failed
+- Execution of get_next_server_import_map failed
+- Next.js package not found
+---------------------------
+Failed to write app endpoint /playground/[id]/page
+
+Caused by:
+- Next.js package not found
+
+Debug info:
+- Execution of Project::hmr_version_state failed
+- Execution of hmr_version_operation failed
+- Execution of VersionedContentMap::get failed
+- Execution of VersionedContentMap::get_asset failed
+- Execution of VersionedContentMap::compute_entry failed
+- Execution of *emit_assets failed
+- Execution of all_assets_from_entries_operation failed
+- Execution of *all_assets_from_entries failed
+- Execution of endpoint_output_assets_operation failed
+- Execution of <AppEndpoint as Endpoint>::output failed
+- Failed to write app endpoint /playground/[id]/page
+- Execution of *all_asset_paths failed
+- Execution of *AppEndpointOutput::output_assets failed
+- Execution of AppEndpoint::output failed
+- Execution of AppEndpoint::app_page_entry failed
+- Execution of *get_app_page_entry failed
+- Execution of AppProject::rsc_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of *AppProject::get_rsc_transitions failed
+- Execution of AppProject::ecmascript_client_reference_transition failed
+- Execution of *NextEcmascriptClientReferenceTransition::new failed
+- Execution of AppProject::ssr_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::ssr_module_context failed
+- Execution of AppProject::shared_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::shared_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of get_server_resolve_options_context failed
+- Execution of get_next_server_import_map failed
+- Next.js package not found
+---------------------------
+Failed to write app endpoint /playground/[id]/page
+
+Caused by:
+- Next.js package not found
+
+Debug info:
+- Execution of Project::hmr_version_state failed
+- Execution of hmr_version_operation failed
+- Execution of VersionedContentMap::get failed
+- Execution of VersionedContentMap::get_asset failed
+- Execution of VersionedContentMap::compute_entry failed
+- Execution of *emit_assets failed
+- Execution of all_assets_from_entries_operation failed
+- Execution of *all_assets_from_entries failed
+- Execution of endpoint_output_assets_operation failed
+- Execution of <AppEndpoint as Endpoint>::output failed
+- Failed to write app endpoint /playground/[id]/page
+- Execution of *all_asset_paths failed
+- Execution of *AppEndpointOutput::output_assets failed
+- Execution of AppEndpoint::output failed
+- Execution of AppEndpoint::app_page_entry failed
+- Execution of *get_app_page_entry failed
+- Execution of AppProject::rsc_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of *AppProject::get_rsc_transitions failed
+- Execution of AppProject::ecmascript_client_reference_transition failed
+- Execution of *NextEcmascriptClientReferenceTransition::new failed
+- Execution of AppProject::ssr_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::ssr_module_context failed
+- Execution of AppProject::shared_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::shared_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of get_server_resolve_options_context failed
+- Execution of get_next_server_import_map failed
+- Next.js package not found
+---------------------------
+Failed to write app endpoint /playground/[id]/page
+
+Caused by:
+- Next.js package not found
+
+Debug info:
+- Execution of Project::hmr_version_state failed
+- Execution of hmr_version_operation failed
+- Execution of VersionedContentMap::get failed
+- Execution of VersionedContentMap::get_asset failed
+- Execution of VersionedContentMap::compute_entry failed
+- Execution of *emit_assets failed
+- Execution of all_assets_from_entries_operation failed
+- Execution of *all_assets_from_entries failed
+- Execution of endpoint_output_assets_operation failed
+- Execution of <AppEndpoint as Endpoint>::output failed
+- Failed to write app endpoint /playground/[id]/page
+- Execution of *all_asset_paths failed
+- Execution of *AppEndpointOutput::output_assets failed
+- Execution of AppEndpoint::output failed
+- Execution of AppEndpoint::app_page_entry failed
+- Execution of *get_app_page_entry failed
+- Execution of AppProject::rsc_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of *AppProject::get_rsc_transitions failed
+- Execution of AppProject::ecmascript_client_reference_transition failed
+- Execution of *NextEcmascriptClientReferenceTransition::new failed
+- Execution of AppProject::ssr_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::ssr_module_context failed
+- Execution of AppProject::shared_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::shared_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of get_server_resolve_options_context failed
+- Execution of get_next_server_import_map failed
+- Next.js package not found
+---------------------------
+Failed to write app endpoint /playground/[id]/page
+
+Caused by:
+- Next.js package not found
+
+Debug info:
+- Execution of Project::hmr_version_state failed
+- Execution of hmr_version_operation failed
+- Execution of VersionedContentMap::get failed
+- Execution of VersionedContentMap::get_asset failed
+- Execution of VersionedContentMap::compute_entry failed
+- Execution of *emit_assets failed
+- Execution of all_assets_from_entries_operation failed
+- Execution of *all_assets_from_entries failed
+- Execution of endpoint_output_assets_operation failed
+- Execution of <AppEndpoint as Endpoint>::output failed
+- Failed to write app endpoint /playground/[id]/page
+- Execution of *all_asset_paths failed
+- Execution of *AppEndpointOutput::output_assets failed
+- Execution of AppEndpoint::output failed
+- Execution of AppEndpoint::app_page_entry failed
+- Execution of *get_app_page_entry failed
+- Execution of AppProject::rsc_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of *AppProject::get_rsc_transitions failed
+- Execution of AppProject::ecmascript_client_reference_transition failed
+- Execution of *NextEcmascriptClientReferenceTransition::new failed
+- Execution of AppProject::ssr_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::ssr_module_context failed
+- Execution of AppProject::shared_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::shared_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of get_server_resolve_options_context failed
+- Execution of get_next_server_import_map failed
+- Next.js package not found
+---------------------------
+Failed to write app endpoint /playground/[id]/page
+
+Caused by:
+- Next.js package not found
+
+Debug info:
+- Execution of Project::hmr_version_state failed
+- Execution of hmr_version_operation failed
+- Execution of VersionedContentMap::get failed
+- Execution of VersionedContentMap::get_asset failed
+- Execution of VersionedContentMap::compute_entry failed
+- Execution of *emit_assets failed
+- Execution of all_assets_from_entries_operation failed
+- Execution of *all_assets_from_entries failed
+- Execution of endpoint_output_assets_operation failed
+- Execution of <AppEndpoint as Endpoint>::output failed
+- Failed to write app endpoint /playground/[id]/page
+- Execution of *all_asset_paths failed
+- Execution of *AppEndpointOutput::output_assets failed
+- Execution of AppEndpoint::output failed
+- Execution of AppEndpoint::app_page_entry failed
+- Execution of *get_app_page_entry failed
+- Execution of AppProject::rsc_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of *AppProject::get_rsc_transitions failed
+- Execution of AppProject::ecmascript_client_reference_transition failed
+- Execution of *NextEcmascriptClientReferenceTransition::new failed
+- Execution of AppProject::ssr_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::ssr_module_context failed
+- Execution of AppProject::shared_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::shared_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of get_server_resolve_options_context failed
+- Execution of get_next_server_import_map failed
+- Next.js package not found
+---------------------------
+Failed to write app endpoint /playground/[id]/page
+
+Caused by:
+- Next.js package not found
+
+Debug info:
+- Execution of Project::hmr_version_state failed
+- Execution of hmr_version_operation failed
+- Execution of VersionedContentMap::get failed
+- Execution of VersionedContentMap::get_asset failed
+- Execution of VersionedContentMap::compute_entry failed
+- Execution of *emit_assets failed
+- Execution of all_assets_from_entries_operation failed
+- Execution of *all_assets_from_entries failed
+- Execution of endpoint_output_assets_operation failed
+- Execution of <AppEndpoint as Endpoint>::output failed
+- Failed to write app endpoint /playground/[id]/page
+- Execution of *all_asset_paths failed
+- Execution of *AppEndpointOutput::output_assets failed
+- Execution of AppEndpoint::output failed
+- Execution of AppEndpoint::app_page_entry failed
+- Execution of *get_app_page_entry failed
+- Execution of AppProject::rsc_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of *AppProject::get_rsc_transitions failed
+- Execution of AppProject::ecmascript_client_reference_transition failed
+- Execution of *NextEcmascriptClientReferenceTransition::new failed
+- Execution of AppProject::ssr_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::ssr_module_context failed
+- Execution of AppProject::shared_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::shared_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of get_server_resolve_options_context failed
+- Execution of get_next_server_import_map failed
+- Next.js package not found
+---------------------------
+Failed to write app endpoint /playground/[id]/page
+
+Caused by:
+- Next.js package not found
+
+Debug info:
+- Execution of Project::hmr_version_state failed
+- Execution of hmr_version_operation failed
+- Execution of VersionedContentMap::get failed
+- Execution of VersionedContentMap::get_asset failed
+- Execution of VersionedContentMap::compute_entry failed
+- Execution of *emit_assets failed
+- Execution of all_assets_from_entries_operation failed
+- Execution of *all_assets_from_entries failed
+- Execution of endpoint_output_assets_operation failed
+- Execution of <AppEndpoint as Endpoint>::output failed
+- Failed to write app endpoint /playground/[id]/page
+- Execution of *all_asset_paths failed
+- Execution of *AppEndpointOutput::output_assets failed
+- Execution of AppEndpoint::output failed
+- Execution of AppEndpoint::app_page_entry failed
+- Execution of *get_app_page_entry failed
+- Execution of AppProject::rsc_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of *AppProject::get_rsc_transitions failed
+- Execution of AppProject::ecmascript_client_reference_transition failed
+- Execution of *NextEcmascriptClientReferenceTransition::new failed
+- Execution of AppProject::ssr_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::ssr_module_context failed
+- Execution of AppProject::shared_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::shared_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of get_server_resolve_options_context failed
+- Execution of get_next_server_import_map failed
+- Next.js package not found
+---------------------------
+Failed to write app endpoint /playground/[id]/page
+
+Caused by:
+- Next.js package not found
+
+Debug info:
+- Execution of Project::hmr_version_state failed
+- Execution of hmr_version_operation failed
+- Execution of VersionedContentMap::get failed
+- Execution of VersionedContentMap::get_asset failed
+- Execution of VersionedContentMap::compute_entry failed
+- Execution of *emit_assets failed
+- Execution of all_assets_from_entries_operation failed
+- Execution of *all_assets_from_entries failed
+- Execution of endpoint_output_assets_operation failed
+- Execution of <AppEndpoint as Endpoint>::output failed
+- Failed to write app endpoint /playground/[id]/page
+- Execution of *all_asset_paths failed
+- Execution of *AppEndpointOutput::output_assets failed
+- Execution of AppEndpoint::output failed
+- Execution of AppEndpoint::app_page_entry failed
+- Execution of *get_app_page_entry failed
+- Execution of AppProject::rsc_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of *AppProject::get_rsc_transitions failed
+- Execution of AppProject::ecmascript_client_reference_transition failed
+- Execution of *NextEcmascriptClientReferenceTransition::new failed
+- Execution of AppProject::ssr_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::ssr_module_context failed
+- Execution of AppProject::shared_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of AppProject::shared_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of get_server_resolve_options_context failed
+- Execution of get_next_server_import_map failed
+- Next.js package not found

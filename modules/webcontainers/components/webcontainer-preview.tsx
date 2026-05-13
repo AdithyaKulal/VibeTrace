@@ -154,7 +154,11 @@ const WebContainerPreview = ({
           );
         }
 
-        const installProcess = await instance.spawn("npm", ["install"]);
+        const installProcess = await instance.spawn("npm", [
+          "install",
+          "--legacy-peer-deps",
+          "--no-optional",
+        ]);
 
         installProcess.output.pipeTo(
           new WritableStream({
@@ -169,9 +173,15 @@ const WebContainerPreview = ({
         const installExitCode = await installProcess.exit;
 
         if (installExitCode !== 0) {
-          throw new Error(
-            `Failed to install dependencies. Exit code: ${installExitCode}`,
+          console.warn(
+            `npm install exited with code ${installExitCode}, attempting to continue...`,
           );
+          // Log exit code but continue - sometimes npm install exits with 1 but still installs enough packages
+          if (terminalRef.current?.writeToTerminal) {
+            terminalRef.current.writeToTerminal(
+              `⚠️  npm install exited with code ${installExitCode}, but continuing with setup\r\n`,
+            );
+          }
         }
 
         if (terminalRef.current?.writeToTerminal) {

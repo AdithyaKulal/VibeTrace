@@ -330,13 +330,16 @@ const TerminalComponent = forwardRef<TerminalRef, TerminalProps>(
 
         terminal.open(terminalRef.current);
 
-        requestAnimationFrame(() => {
+        // Delay fit to ensure terminal has dimensions
+        setTimeout(() => {
           try {
-            fitAddonInstance.fit();
+            if (fitAddonInstance && terminalRef.current && terminalRef.current.offsetWidth > 0) {
+              fitAddonInstance.fit();
+            }
           } catch (err) {
-            console.error(err);
+            console.warn("Failed to fit terminal addon:", err);
           }
-        });
+        }, 100);
 
         term.current = terminal;
         fitAddon.current = fitAddonInstance;

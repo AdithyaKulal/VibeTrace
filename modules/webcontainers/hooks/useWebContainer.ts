@@ -2,6 +2,10 @@ import { useState, useEffect, useCallback } from "react";
 import { WebContainer } from "@webcontainer/api";
 import { TemplateFolder } from "@/modules/playground/lib/path-to-json";
 
+// Global WebContainer instance to prevent multiple boots
+let globalWebContainerInstance: WebContainer | null = null;
+let globalWebContainerPromise: Promise<WebContainer> | null = null;
+
 interface UseWebContainerProps {
   templateData: TemplateFolder;
 }
@@ -28,19 +32,41 @@ export const useWebContainer = ({
 
     async function initializeWebContainer() {
       try {
-        const webContainerInstance = await WebContainer.boot();
-          if (!mounted) return;
-          
-          setInstance(webContainerInstance);
-          setIsLoading(false);
+        if (globalWebContainerInstance) {
+          // Reuse existing instance
+          if (mounted) {
+            setInstance(globalWebContainerInstance);
+            setIsLoading(false);
+          }
+          return;
+        }
 
+        if (globalWebContainerPromise) {
+          // Wait for ongoing boot
+          const webContainerInstance = await globalWebContainerPromise;
+          if (mounted) {
+            setInstance(webContainerInstance);
+            setIsLoading(false);
+          }
+          return;
+        }
+
+        // Start booting
+        globalWebContainerPromise = WebContainer.boot();
+        const webContainerInstance = await globalWebContainerPromise;
+        globalWebContainerInstance = webContainerInstance;
+        globalWebContainerPromise = null;
+
+        if (!mounted) return;
+          
+        setInstance(webContainerInstance);
+        setIsLoading(false);
 
       } catch (error) {
           console.error('failed to initialize WebContainer:', error);
           if (mounted) {
               setError(error instanceof Error ? error.message : 'failed to initialize WebContainer');
               setIsLoading(false);
-
           }
       }
       }
@@ -49,9 +75,7 @@ export const useWebContainer = ({
 
       return () => {
           mounted = false;
-          if (instance) {
-              instance.teardown();
-          }
+          // Don't teardown global instance here, as other components might be using it
       }
 
   }, []);
@@ -85,12 +109,10 @@ export const useWebContainer = ({
 
 
     const destroy = useCallback(() => {
-        if (instance) {
-            instance.teardown();
-            setInstance(null);
-            setServerUrl(null);
-        }
-    }, [instance]);
+        // Don't teardown global instance, as it might be used by other components
+        setInstance(null);
+        setServerUrl(null);
+    }, []);
 
     
   return { serverUrl, isLoading, error, instance, writeFileSync, destroy };
