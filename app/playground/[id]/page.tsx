@@ -515,7 +515,7 @@ const MainPlaygroundPage = () => {
                           aiSuggestions.rejectSuggestion(editor)
                         }
                         onTriggerSuggestion={(type, editor) =>
-                          aiSuggestions.fetchSuggestion(type)
+                          aiSuggestions.fetchSuggestion(type,editor)
                         }
                       />
                     </ResizablePanel>

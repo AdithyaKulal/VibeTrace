@@ -55,13 +55,13 @@ export const useAISuggestions = (): UseAISuggestionReturn => {
       (async () => {
         try {
           const payload = {
-            fileContent: model.getvalue(),
+            fileContent: model.getValue(),
             cursorLine: cursorPosition.lineNumber - 1,
             cursorColumn: cursorPosition.column - 1,
             suggestionType: type,
           };
 
-          const response = await fetch("/api/code-suggestion", {
+          const response = await fetch("/api/code-completion", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(payload),
