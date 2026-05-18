@@ -224,7 +224,7 @@ If you'd like, I can also:
 
 Let me know which of these you'd like next.
 
-🤝 Contributing-
+##🤝 Contributing-
    We value open-source contributions. To streamline the collaboration pipeline:
 
 Fork the VibeTrace repository.
