@@ -105,6 +105,9 @@ export const AIChatSidePanel: React.FC<AIChatSidePanelProps> = ({
   isOpen,
   onClose,
 }) => {
+  const MIN_PANEL_WIDTH = 320;
+  const MAX_PANEL_WIDTH = 960;
+
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [input, setInput] = useState("");
   const [isLoading, setIsLoading] = useState(false);
@@ -116,8 +119,67 @@ export const AIChatSidePanel: React.FC<AIChatSidePanelProps> = ({
   const [autoSave, setAutoSave] = useState(true);
   const [streamResponse, setStreamResponse] = useState(true);
   const [model, setModel] = useState<string>("gpt-6");
+  const [panelWidth, setPanelWidth] = useState(560);
 
   const messagesEndRef = useRef<HTMLDivElement>(null);
+  const isResizingRef = useRef(false);
+  const startXRef = useRef(0);
+  const startWidthRef = useRef(0);
+  const listenersAttachedRef = useRef(false);
+
+  const removeResizeListeners = () => {
+    if (!listenersAttachedRef.current) {
+      return;
+    }
+
+    document.removeEventListener("mousemove", handleMouseMove);
+    document.removeEventListener("mouseup", handleMouseUp);
+    listenersAttachedRef.current = false;
+    document.body.style.userSelect = "";
+    document.body.style.cursor = "";
+  };
+
+  const handleMouseMove = (event: MouseEvent) => {
+    if (!isResizingRef.current) return;
+
+    const delta = startXRef.current - event.clientX;
+    const effectiveMaxWidth = Math.min(
+      MAX_PANEL_WIDTH,
+      Math.max(MIN_PANEL_WIDTH, window.innerWidth - 200),
+    );
+    const nextWidth = Math.min(
+      effectiveMaxWidth,
+      Math.max(MIN_PANEL_WIDTH, startWidthRef.current + delta),
+    );
+    setPanelWidth(nextWidth);
+  };
+
+  const handleMouseUp = () => {
+    if (!isResizingRef.current) return;
+    isResizingRef.current = false;
+    removeResizeListeners();
+  };
+
+  const handleResizeMouseDown = (event: React.MouseEvent<HTMLDivElement>) => {
+    event.preventDefault();
+    isResizingRef.current = true;
+    startXRef.current = event.clientX;
+    startWidthRef.current = panelWidth;
+
+    document.body.style.userSelect = "none";
+    document.body.style.cursor = "col-resize";
+
+    document.addEventListener("mousemove", handleMouseMove);
+    document.addEventListener("mouseup", handleMouseUp);
+    listenersAttachedRef.current = true;
+  };
+
+  useEffect(() => {
+    return () => {
+      isResizingRef.current = false;
+      removeResizeListeners();
+    };
+  }, []);
 
   const scrollToBottom = () => {
     if (messagesEndRef.current) {
@@ -277,10 +339,19 @@ export const AIChatSidePanel: React.FC<AIChatSidePanelProps> = ({
         {/* Side Panel */}
         <div
           className={cn(
-            "fixed right-0 top-0 h-full w-full max-w-6xl bg-zinc-950 border-l border-zinc-800 z-50 flex flex-col transition-transform duration-300 ease-out shadow-2xl",
+            "fixed right-0 top-0 h-full bg-zinc-950 border-l border-zinc-800 z-50 flex flex-col transition-transform duration-300 ease-out shadow-2xl",
             isOpen ? "translate-x-0" : "translate-x-full",
           )}
+          style={{ width: panelWidth }}
         >
+          <div
+            className="absolute left-0 top-0 h-full w-4 -ml-2 cursor-col-resize z-20"
+            onMouseDown={handleResizeMouseDown}
+            role="button"
+            aria-label="Resize assistant panel"
+            tabIndex={-1}
+          />
+
           {/* Enhanced Header */}
           <div className="shrink-0 border-b border-zinc-800 bg-zinc-900/80 backdrop-blur-sm">
             <div className="flex items-center justify-between p-6">
@@ -349,34 +420,36 @@ export const AIChatSidePanel: React.FC<AIChatSidePanelProps> = ({
               onValueChange={(value) => setChatMode(value as any)}
               className="px-6"
             >
-              <div className="flex items-center justify-between mb-4">
-                <TabsList className="grid w-full grid-cols-4 max-w-md">
-                  <TabsTrigger value="chat" className="flex items-center gap-1">
-                    <MessageSquare className="h-3 w-3" />
-                    Chat
-                  </TabsTrigger>
-                  <TabsTrigger
-                    value="review"
-                    className="flex items-center gap-1"
-                  >
-                    <Code className="h-3 w-3" />
-                    Review
-                  </TabsTrigger>
-                  <TabsTrigger value="fix" className="flex items-center gap-1">
-                    <RefreshCw className="h-3 w-3" />
-                    Fix
-                  </TabsTrigger>
-                  <TabsTrigger
-                    value="optimize"
-                    className="flex items-center gap-1"
-                  >
-                    <Zap className="h-3 w-3" />
-                    Optimize
-                  </TabsTrigger>
-                </TabsList>
+              <div className="flex flex-col gap-3 pb-6">
+                <div className="flex flex-wrap items-center gap-2">
+                  <TabsList className="grid w-full grid-cols-4 gap-2 min-w-0">
+                    <TabsTrigger value="chat" className="flex items-center gap-1">
+                      <MessageSquare className="h-3 w-3" />
+                      Chat
+                    </TabsTrigger>
+                    <TabsTrigger
+                      value="review"
+                      className="flex items-center gap-1"
+                    >
+                      <Code className="h-3 w-3" />
+                      Review
+                    </TabsTrigger>
+                    <TabsTrigger value="fix" className="flex items-center gap-1">
+                      <RefreshCw className="h-3 w-3" />
+                      Fix
+                    </TabsTrigger>
+                    <TabsTrigger
+                      value="optimize"
+                      className="flex items-center gap-1"
+                    >
+                      <Zap className="h-3 w-3" />
+                      Optimize
+                    </TabsTrigger>
+                  </TabsList>
+                </div>
 
-                <div className="flex items-center gap-2">
-                  <div className="hidden sm:flex items-center gap-2 text-xs text-zinc-400">
+                <div className="flex flex-wrap items-center gap-2 justify-between">
+                  <div className="flex flex-wrap items-center gap-2 text-xs text-zinc-400 min-w-0">
                     <span className="text-zinc-500">Model:</span>
                     <select
                       value={model}
@@ -388,46 +461,35 @@ export const AIChatSidePanel: React.FC<AIChatSidePanelProps> = ({
                       <option value="llama2">llama2</option>
                     </select>
                   </div>
-                  <div className="relative">
-                    <Search className="absolute left-2 top-1/2 transform -translate-y-1/2 h-3 w-3 text-zinc-500" />
-                    <Input
-                      placeholder="Search messages..."
-                      value={searchTerm}
-                      onChange={(e) => setSearchTerm(e.target.value)}
-                      className="pl-7 h-8 w-40 bg-zinc-800/50 border-zinc-700/50"
-                    />
-                  </div>
 
-                  <DropdownMenu>
-                    <DropdownMenuTrigger asChild>
-                      <Button variant="ghost" size="sm" className="h-8 w-8 p-0">
-                        <Filter className="h-3 w-3" />
-                      </Button>
-                    </DropdownMenuTrigger>
-                    <DropdownMenuContent align="end">
-                      <DropdownMenuItem onClick={() => setFilterType("all")}>
-                        All Messages
-                      </DropdownMenuItem>
-                      <DropdownMenuItem onClick={() => setFilterType("chat")}>
-                        Chat Only
-                      </DropdownMenuItem>
-                      <DropdownMenuItem
-                        onClick={() => setFilterType("code_review")}
-                      >
-                        Code Reviews
-                      </DropdownMenuItem>
-                      <DropdownMenuItem
-                        onClick={() => setFilterType("error_fix")}
-                      >
-                        Error Fixes
-                      </DropdownMenuItem>
-                      <DropdownMenuItem
-                        onClick={() => setFilterType("optimization")}
-                      >
-                        Optimizations
-                      </DropdownMenuItem>
-                    </DropdownMenuContent>
-                  </DropdownMenu>
+                  <div className="flex flex-1 min-w-0 flex-wrap items-center gap-2">
+                    <div className="relative flex-1 min-w-30">
+                      <Search className="absolute left-2 top-1/2 transform -translate-y-1/2 h-3 w-3 text-zinc-500" />
+                      <Input
+                        placeholder="Search messages..."
+                        value={searchTerm}
+                        onChange={(e) => setSearchTerm(e.target.value)}
+                        className="pl-7 h-8 w-full min-w-30 bg-zinc-800/50 border-zinc-700/50"
+                      />
+                    </div>
+
+                    <DropdownMenu>
+                      <DropdownMenuTrigger asChild>
+                        <Button variant="ghost" size="sm" className="h-8 w-8 p-0">
+                          <Filter className="h-3 w-3" />
+                        </Button>
+                      </DropdownMenuTrigger>
+                      <DropdownMenuContent align="end">
+                        <DropdownMenuItem onClick={() => setFilterType("all")}>All Messages</DropdownMenuItem>
+                        <DropdownMenuItem onClick={() => setFilterType("chat")}>Chat Only</DropdownMenuItem>
+                        <DropdownMenuItem onClick={() => setFilterType("code_review")}>
+                          Code Reviews
+                        </DropdownMenuItem>
+                        <DropdownMenuItem onClick={() => setFilterType("error_fix")}>Error Fixes</DropdownMenuItem>
+                        <DropdownMenuItem onClick={() => setFilterType("optimization")}>Optimizations</DropdownMenuItem>
+                      </DropdownMenuContent>
+                    </DropdownMenu>
+                  </div>
                 </div>
               </div>
             </Tabs>
