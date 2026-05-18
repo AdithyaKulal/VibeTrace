@@ -6,6 +6,10 @@ VibeTrace is a developer playground and collaboration platform built with Next.j
 
 - **Playground management**: create and save project playgrounds and template files.
 - **Authentication**: GitHub & Google login via `next-auth` with Prisma adapter.
+* **🤖 Integrated AI Assistant:** Leverage a powerful, local **AI assistant** built to handle complex developer queries. 
+  * **Interactive Chat:** Ask engineering questions directly from the workspace sidebar.
+  * **Code Completion:** Get inline smart code completions and predictive context blocks as you write.
+  * **💻 Immersive Editor & Terminal:** High-performance Monaco Editor engine coupled with `xterm.js` integrations for live sandboxed code editing and terminal output previews.
 - **AI endpoints**: server endpoints for chat and code completion (pluggable to external AI providers).
 - **Editor & terminal**: Monaco editor and xterm integrations for live editing and previews.
 - **Prisma + MongoDB**: schema-driven data models for users, playgrounds, and chat messages.
